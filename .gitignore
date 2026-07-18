@@ -1,8 +1,7 @@
-# Archivos objeto y ejecutables
-*.o
-*.out
-*.exe
-
-# Carpetas de compilacion
-build/
-bin/
+# Ignorar todos los ejecutables compilados sin extension en cualquier subcarpeta
+*
+!*/
+!*.c
+!*.h
+!.gitignore
+!README.md
