@@ -1,7 +1,7 @@
 /*
  * Comparacion de bloques de memoria byte a byte utilizando memcmp
  * 
- * 
+ * Compilar con: gcc ejemplo1_memcmp.c -o ejemplo1_memcmp
  */
 #include <stdio.h>
 #include <string.h>
